@@ -1,0 +1,3 @@
+# Local-only: generator sources and internal caption notes (contain local paths and private repo names)
+profile/assets/gifs/**/_src/
+profile/assets/gifs/**/CAPTIONS.md
