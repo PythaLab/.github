@@ -205,12 +205,6 @@ Live interactive sites, public and runnable in the browser without installation:
 Lecture videos on [YouTube](https://www.youtube.com/@memo8301), with playlists on Python, C, C++, C#,
 multithreading and reinforcement learning.
 
-## Students
-
-1 active MSc thesis; the undergraduate research programme is launching. Each student works in a private,
-supervised repository with a common structure; progress is tracked through weekly reports,
-assignments with evidence-based solutions, and written reviews.
-
 ## Industry
 
 Industry training in model-based systems engineering (MBSE).
