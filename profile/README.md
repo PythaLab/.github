@@ -107,14 +107,17 @@ Preprints on arXiv; see each listing for status.
 
 <table>
   <tr>
+    <td colspan="2" align="center">
+      <img src="https://raw.githubusercontent.com/PythaLab/.github/main/profile/assets/showcase/uav-architecture.png" alt="Block diagram of autopilot-preserving residual command supervision: mission reference, residual command supervisor, command projection, classical autopilot and fixed-wing UAV plant, with the internal decision logic (feature extraction, finite candidate residuals, Q/HJB critic, Hamiltonian advantage, CLF/CBF-style safety filter, select or fallback)" width="100%"><br>
+      <sub>Autopilot-preserving residual command supervision: a learned supervisor above an unchanged classical autopilot, with a value-guided critic and a safety filter (<a href="https://arxiv.org/abs/2606.01397">arXiv:2606.01397</a>)</sub>
+    </td>
+  </tr>
+  <tr>
     <td width="50%" valign="top" align="center">
       <img src="https://raw.githubusercontent.com/PythaLab/.github/main/profile/assets/showcase/uav-crosswind-timeseries.png" alt="Time series of a representative low-altitude crosswind and turbulence orbit: baseline, Q residual and HJB residual controllers" width="100%"><br>
       <sub>Representative low-altitude crosswind/turbulence orbit, baseline versus residual controllers (<a href="https://arxiv.org/abs/2606.01397">arXiv:2606.01397</a>)</sub>
     </td>
     <td width="50%" valign="top" align="center">
-      <img src="https://raw.githubusercontent.com/PythaLab/.github/main/profile/assets/showcase/uav-architecture.png" alt="Block diagram of autopilot-preserving residual command supervision" width="100%"><br>
-      <sub>Autopilot-preserving residual command supervision architecture (<a href="https://arxiv.org/abs/2606.01397">arXiv:2606.01397</a>)</sub>
-      <br><br>
       <img src="https://raw.githubusercontent.com/PythaLab/.github/main/profile/assets/showcase/uav-rms-benchmark.png" alt="Bar chart of full-duration RMS spatial reference and path tracking error for baseline, Q residual and HJB residual" width="100%"><br>
       <sub>Mean RMS path error over a 20-scenario simulation benchmark (<a href="https://arxiv.org/abs/2606.01397">arXiv:2606.01397</a>)</sub>
     </td>
