@@ -84,17 +84,17 @@ flowchart TD
 
 Preprints on arXiv; see each listing for status.
 
-**UAV and control**
+**UAV control**
 
 | Title | Year |
 | --- | --- |
 | [Autopilot-Preserving Residual Q-Learning with HJB-Inspired Finite-Action Risk Filtering for Fixed-Wing UAV Command Supervision](https://arxiv.org/abs/2606.01397) | 2026, with B. Temiz |
-| [Requirement-Bound Verified Commissioning: A Frozen Four-Billion-Parameter Local Model as a Candidate Generator under an External Acceptance Layer with Verification and Release Authority](https://arxiv.org/abs/2609.30219) | 2026 |
 
-**Rigorous evaluation of AI systems**
+**AI systems: rigorous evaluation and engineering use**
 
 | Title | Year |
 | --- | --- |
+| [Requirement-Bound Verified Commissioning: A Frozen Four-Billion-Parameter Local Model as a Candidate Generator under an External Acceptance Layer with Verification and Release Authority](https://arxiv.org/abs/2609.30219) | 2026 |
 | [Form, Not Content? A Preregistered, Placebo-Controlled Evaluation of Learned Error-Conditioned Self-Repair Through Prompts and Weights in Frozen Small Code Models](https://arxiv.org/abs/2607.12962) | 2026 |
 | [Falsification, Not Exposure: An Internally Preregistered Placebo-Controlled Decomposition of Self-Repair Feedback in Frozen Small Code Models](https://arxiv.org/abs/2606.31511) | 2026 |
 | [Selection Without Signal, Recovery Through Expression: A Measurement Study of Post-Hoc Falsification Operators for Frozen Small Code Models](https://arxiv.org/abs/2606.16999) | 2026 |
@@ -136,14 +136,14 @@ Preprints on arXiv; see each listing for status.
 
 ## Teaching
 
-Courses in Python programming, artificial intelligence, reinforcement learning for control, applied
-reinforcement learning for mechatronic systems, capstone design, and large language models, at
-undergraduate and graduate level. Browser-based interactive laboratories let students run simulations
-and train policies without installing anything.
+Courses in Python programming, artificial intelligence, a reinforcement learning control laboratory,
+applied nonlinear control and capstone design, at undergraduate and graduate level; a graduate course
+on large language models is in preparation. Browser-based interactive laboratories let students run
+simulations and train policies without installing anything.
 
 ## Students
 
-The lab supervises MSc theses and undergraduate researchers. Each student works in a private,
+The lab supervises MSc research and is launching an undergraduate research programme. Each student works in a private,
 supervised repository with a common structure; progress is tracked through weekly reports,
 assignments with evidence-based solutions, and written reviews.
 
