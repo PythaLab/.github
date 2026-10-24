@@ -207,7 +207,8 @@ multithreading and reinforcement learning.
 
 ## Industry
 
-Industry training in model-based systems engineering (MBSE).
+Industry work is mainly in the defence sector, including work for the Turkish Armed Forces and
+model-based systems engineering (MBSE) training for defence engineering teams.
 
 ## Open work
 
