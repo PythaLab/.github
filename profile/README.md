@@ -71,28 +71,42 @@ aircraft.
   </picture>
 </p>
 
-## In action
+## Control in simulation
 
 <table>
   <tr>
     <td width="50%" valign="top" align="center">
-      <img src="https://raw.githubusercontent.com/PythaLab/.github/main/profile/assets/gifs/captures/uav-digital-twin-flight.gif" alt="Fixed-wing UAV taking off in a 6-DOF digital twin" width="100%"><br>
-      <sub><b>Fixed-wing digital twin.</b> 6-DOF simulator, take-off and climb (<a href="https://arxiv.org/abs/2606.01397">arXiv:2606.01397</a>).</sub>
+      <img src="https://raw.githubusercontent.com/PythaLab/.github/main/profile/assets/media/flight/uav-twin-01-takeoff.webp" alt="Fixed-wing UAV take-off and climb-out in the digital twin" width="100%"><br>
+      <sub><b>Take-off.</b> Runway roll, lift-off and climb-out, chase camera.</sub>
     </td>
     <td width="50%" valign="top" align="center">
-      <img src="https://raw.githubusercontent.com/PythaLab/.github/main/profile/assets/gifs/captures/rl-lab-qlearning.gif" alt="Q-learning policy converging on Cliff Walking in a browser lab" width="100%"><br>
-      <sub><b>RL control laboratory.</b> Q-learning running in the browser (<a href="https://phinitelab.github.io/mkt4822-online-sessions/">live</a>).</sub>
+      <img src="https://raw.githubusercontent.com/PythaLab/.github/main/profile/assets/media/flight/uav-twin-02-orbit.webp" alt="Fixed-wing UAV capturing a 200 m orbit" width="100%"><br>
+      <sub><b>Orbit capture.</b> Entering a 200 m circle.</sub>
     </td>
   </tr>
   <tr>
-    <td colspan="2" align="center">
-      <img src="https://raw.githubusercontent.com/PythaLab/.github/main/profile/assets/gifs/captures/llm-gpt2-journey.gif" alt="A sentence travelling through the stages of GPT-2 in an interactive teaching site" width="80%"><br>
-      <sub><b>How language models work.</b> A sentence travelling through GPT-2, with real model traces (<a href="https://phinitelab.github.io/mkt6108-online-sessions/">live</a>).</sub>
+    <td width="50%" valign="top" align="center">
+      <img src="https://raw.githubusercontent.com/PythaLab/.github/main/profile/assets/media/flight/uav-twin-03-operator.webp" alt="Operator console of the digital twin" width="100%"><br>
+      <sub><b>Operator console.</b> Attitude, heading, speed and altitude tapes, live telemetry.</sub>
+    </td>
+    <td width="50%" valign="top" align="center">
+      <img src="https://raw.githubusercontent.com/PythaLab/.github/main/profile/assets/media/flight/uav-twin-04-sharq.webp" alt="Loiter with the SHARQ-HJB supervisor selected in light turbulence" width="100%"><br>
+      <sub><b>Supervised loiter.</b> SHARQ-HJB supervisor selected, light turbulence.</sub>
+    </td>
+  </tr>
+  <tr>
+    <td width="50%" valign="top" align="center">
+      <img src="https://raw.githubusercontent.com/PythaLab/.github/main/profile/assets/media/flight/uav-twin-05-fight.webp" alt="High-speed manoeuvring reference in the digital twin" width="100%"><br>
+      <sub><b>Fight mode.</b> High-speed manoeuvring reference.</sub>
+    </td>
+    <td width="50%" valign="top" align="center">
+      <img src="https://raw.githubusercontent.com/PythaLab/.github/main/profile/assets/media/software/rl-gimbal-slider-viewer.webp" alt="Two-link manipulator tracking a reference with an unscented Kalman filter estimate" width="100%"><br>
+      <sub><b>Two-link arm.</b> Reference tracking with a UKF estimate, 3D viewer.</sub>
     </td>
   </tr>
 </table>
 
-<sub>Aircraft model in the digital twin: Ro3code <code>aircraft_3d_animation</code> SAAB Gripen meshes, GPL-3.0, visual only.</sub>
+<sub>6-DOF fixed-wing digital twin from <a href="https://github.com/PhiniteLab/residual-shield">residual-shield</a> (<a href="https://arxiv.org/abs/2606.01397">arXiv:2606.01397</a>); the simulation runs slower than real time. Aircraft model: Ro3code <code>aircraft_3d_animation</code> SAAB Gripen meshes, GPL-3.0, visual only.</sub>
 
 ## Funded projects
 
@@ -100,6 +114,72 @@ aircraft.
 | --- | --- | --- |
 | TÜBİTAK 1001 | A tilt-trirotor VTOL controller with task-oriented transfer and rapid adaptation: meta-learning-based reinforcement learning, validated in the hardware loop and in flight | Principal investigator |
 | TÜBİTAK 3501 | HJB-regularised soft actor-critic flight control for fixed-wing UAVs with UKF-based online estimation of cable-actuator parameters | Principal investigator |
+
+<table>
+  <tr>
+    <td width="50%" valign="top" align="center">
+      <img src="https://raw.githubusercontent.com/PythaLab/.github/main/profile/assets/media/projects/fixed-wing-uav-fly-pfd.webp" alt="Fixed-wing UAV simulation platform: primary flight display in variable wind and gusts" width="100%"><br>
+      <sub><b>Fixed-wing platform · TÜBİTAK 3501.</b> Primary flight display, variable wind and gusts.</sub>
+    </td>
+    <td width="50%" valign="top" align="center">
+      <img src="https://raw.githubusercontent.com/PythaLab/.github/main/profile/assets/media/projects/fixed-wing-uav-fly-3d.webp" alt="Fixed-wing UAV simulation platform: 3D chase view with the reference path" width="100%"><br>
+      <sub><b>Fixed-wing platform · TÜBİTAK 3501.</b> 3D view with the reference path.</sub>
+    </td>
+  </tr>
+  <tr>
+    <td width="50%" valign="top" align="center">
+      <img src="https://raw.githubusercontent.com/PythaLab/.github/main/profile/assets/media/projects/fixed-wing-uav-cable-actuator.webp" alt="Cable-driven aileron actuator with online stiffness and damping estimates through an injected cable fault" width="100%"><br>
+      <sub><b>Cable-driven aileron · TÜBİTAK 3501.</b> Online stiffness and damping estimates through an injected cable fault.</sub>
+    </td>
+    <td width="50%" valign="top" align="center">
+      <img src="https://raw.githubusercontent.com/PythaLab/.github/main/profile/assets/media/projects/tilt-trirotor-vertical-climb.webp" alt="Tilt-trirotor VTOL platform: vertical climb under hover control" width="100%"><br>
+      <sub><b>Tilt-trirotor VTOL · TÜBİTAK 1001.</b> Vertical climb under hover control.</sub>
+    </td>
+  </tr>
+  <tr>
+    <td colspan="2" align="center">
+      <img src="https://raw.githubusercontent.com/PythaLab/.github/main/profile/assets/media/projects/tilt-trirotor-hover-wind-step.webp" alt="Tilt-trirotor VTOL platform: hover holding altitude through a wind step" width="50%"><br>
+      <sub><b>Tilt-trirotor VTOL · TÜBİTAK 1001.</b> Hover through a wind step.</sub>
+    </td>
+  </tr>
+</table>
+
+<sub>Simulation platforms of the two projects, software in the loop. The tilt-trirotor model uses pre-CAD parameters.</sub>
+
+## LLM agents and research software
+
+<table>
+  <tr>
+    <td width="50%" valign="top" align="center">
+      <img src="https://raw.githubusercontent.com/PythaLab/.github/main/profile/assets/media/terminal/mera-real.webp" alt="PYTHALAB-MERA terminal run with a local model: two failed validations, repair and acceptance" width="100%"><br>
+      <sub><b>PYTHALAB-MERA.</b> Local model, two failed validations, repair, accept. Waits shortened (<a href="https://arxiv.org/abs/2605.08468">arXiv:2605.08468</a>).</sub>
+    </td>
+    <td width="50%" valign="top" align="center">
+      <img src="https://raw.githubusercontent.com/PythaLab/.github/main/profile/assets/media/software/pythalab-cortex.webp" alt="PythaLab Cortex research workspace streaming an answer from a local model" width="100%"><br>
+      <sub><b>PythaLab Cortex.</b> Local research workspace with a local model (code private).</sub>
+    </td>
+  </tr>
+  <tr>
+    <td width="50%" valign="top" align="center">
+      <img src="https://raw.githubusercontent.com/PythaLab/.github/main/profile/assets/media/terminal/rl-developer-memory.webp" alt="rl-developer-memory storing and recalling a verified reinforcement learning fix" width="100%"><br>
+      <sub><b>rl-developer-memory.</b> Store and recall a verified RL fix (<a href="https://github.com/PhiniteLab/rl-developer-memory">repo</a>).</sub>
+    </td>
+    <td width="50%" valign="top" align="center">
+      <img src="https://raw.githubusercontent.com/PythaLab/.github/main/profile/assets/media/terminal/codex-issue-memory.webp" alt="codex-issue-memory capturing and recalling an issue fix" width="100%"><br>
+      <sub><b>codex-issue-memory.</b> Capture and recall an issue fix (<a href="https://github.com/PhiniteLab/codex-issue-memory">repo</a>).</sub>
+    </td>
+  </tr>
+  <tr>
+    <td width="50%" valign="top" align="center">
+      <img src="https://raw.githubusercontent.com/PythaLab/.github/main/profile/assets/media/software/critique-studio.webp" alt="AI and RL project critique studio reviewing a project card" width="100%"><br>
+      <sub><b>Critique Studio.</b> Structured review of an AI/RL control project (code private).</sub>
+    </td>
+    <td width="50%" valign="top" align="center">
+      <img src="https://raw.githubusercontent.com/PythaLab/.github/main/profile/assets/media/terminal/cortexmark.webp" alt="CortexMark converting a paper PDF to Markdown" width="100%"><br>
+      <sub><b>CortexMark.</b> PDF to Markdown for research literature (<a href="https://github.com/PhiniteLab/cortexmark">repo</a>).</sub>
+    </td>
+  </tr>
+</table>
 
 ## Preprints
 
@@ -144,6 +224,49 @@ Interactive course sites: [machine learning lab](https://phinitelab.github.io/mk
 [how LLMs work](https://phinitelab.github.io/mkt6108-online-sessions/).
 Lecture series on [YouTube](https://www.youtube.com/@memo8301): Python, C, C++, C#, multithreading and reinforcement learning.
 
+<table>
+  <tr>
+    <td width="50%" valign="top" align="center">
+      <img src="https://raw.githubusercontent.com/PythaLab/.github/main/profile/assets/media/teaching/m1_bandit.webp" alt="Multi-armed bandit lab comparing greedy, epsilon-greedy and UCB" width="100%"><br>
+      <sub><b>MKT4822 · Bandits.</b> Greedy, ε-greedy and UCB.</sub>
+    </td>
+    <td width="50%" valign="top" align="center">
+      <img src="https://raw.githubusercontent.com/PythaLab/.github/main/profile/assets/media/teaching/m3_vi.webp" alt="Value iteration converging on a gridworld" width="100%"><br>
+      <sub><b>MKT4822 · Value iteration.</b> Converging on a gridworld.</sub>
+    </td>
+  </tr>
+  <tr>
+    <td width="50%" valign="top" align="center">
+      <img src="https://raw.githubusercontent.com/PythaLab/.github/main/profile/assets/media/teaching/m5_td.webp" alt="TD(0) value learning on a gridworld" width="100%"><br>
+      <sub><b>MKT4822 · TD(0).</b> Value learning on a gridworld.</sub>
+    </td>
+    <td width="50%" valign="top" align="center">
+      <img src="https://raw.githubusercontent.com/PythaLab/.github/main/profile/assets/media/teaching/m6_tdmc.webp" alt="TD versus Monte Carlo on the random walk" width="100%"><br>
+      <sub><b>MKT4822 · TD vs Monte Carlo.</b> Random walk, RMSE curves.</sub>
+    </td>
+  </tr>
+  <tr>
+    <td width="50%" valign="top" align="center">
+      <img src="https://raw.githubusercontent.com/PythaLab/.github/main/profile/assets/media/teaching/t_train.webp" alt="Training and debugging a model in the browser" width="100%"><br>
+      <sub><b>MKT3432 · Training and debugging.</b> Loss, fit and learning rate.</sub>
+    </td>
+    <td width="50%" valign="top" align="center">
+      <img src="https://raw.githubusercontent.com/PythaLab/.github/main/profile/assets/media/teaching/i_cnn.webp" alt="Image classification through a convolutional network" width="100%"><br>
+      <sub><b>MKT3432 · Image classification.</b> Through a CNN, step by step.</sub>
+    </td>
+  </tr>
+  <tr>
+    <td width="50%" valign="top" align="center">
+      <img src="https://raw.githubusercontent.com/PythaLab/.github/main/profile/assets/media/teaching/j_pick.webp" alt="GPT-2 scoring and picking the next piece" width="100%"><br>
+      <sub><b>MKT6108 · Next-token choice.</b> GPT-2 scores, softmax and sampling.</sub>
+    </td>
+    <td width="50%" valign="top" align="center">
+      <img src="https://raw.githubusercontent.com/PythaLab/.github/main/profile/assets/media/teaching/a_att.webp" alt="GPT-2 attention shown in 3D" width="100%"><br>
+      <sub><b>MKT6108 · Attention in 3D.</b> Precomputed GPT-2 attention.</sub>
+    </td>
+  </tr>
+</table>
+
 ## Industry
 
 Industry work is mainly in the defence sector, including work for the Turkish Armed Forces and
@@ -164,18 +287,6 @@ model-based systems engineering (MBSE) training for defence engineering teams.
 | Agent tooling | [scaffold-skill](https://github.com/PhiniteLab/scaffold-skill) · [rl-developer-memory](https://github.com/PhiniteLab/rl-developer-memory) · [codex-issue-memory](https://github.com/PhiniteLab/codex-issue-memory) · [cortexmark](https://github.com/PhiniteLab/cortexmark) · [pythalab-llm-service](https://github.com/PhiniteLab/pythalab-llm-service) · [phytalab-llm-study-protocol](https://github.com/PhiniteLab/phytalab-llm-study-protocol) |
 | Tools and lectures | [phi-serial-plotter](https://github.com/PhiniteLab/phi-serial-plotter) · [serial-comm-port](https://github.com/PhiniteLab/serial-comm-port) · [Education](https://github.com/PhiniteLab/Education) |
 
-<table>
-  <tr>
-    <td width="50%" valign="top" align="center">
-      <img src="https://raw.githubusercontent.com/PythaLab/.github/main/profile/assets/gifs/terminal/mera-agent.gif" alt="Terminal session of the PYTHALAB-MERA validation loop" width="100%"><br>
-      <sub>PYTHALAB-MERA validation loop, demo backend (<a href="https://arxiv.org/abs/2605.08468">arXiv:2605.08468</a>)</sub>
-    </td>
-    <td width="50%" valign="top" align="center">
-      <img src="https://raw.githubusercontent.com/PythaLab/.github/main/profile/assets/gifs/terminal/cortexmark.gif" alt="Terminal session converting a paper PDF to Markdown with CortexMark" width="100%"><br>
-      <sub>CortexMark: PDF to Markdown for research literature</sub>
-    </td>
-  </tr>
-</table>
 
 </details>
 
